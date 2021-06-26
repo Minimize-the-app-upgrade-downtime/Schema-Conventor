@@ -87,7 +87,7 @@ func changeRequestForUpdatedVersion(w http.ResponseWriter, r *http.Request) {
 			panic(err)
 		}
 		log.Println("Apply Employee table DB changes Shcema for POST Request")
-		dbEmp.PhoneNumber = 71000
+		dbEmp.PhoneNumber = 07100000
 		//Marshal or convert user object back to json and write to response
 		dbJson, err := json.Marshal(dbEmp)
 		if err != nil {
